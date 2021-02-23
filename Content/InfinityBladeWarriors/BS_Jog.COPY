@@ -1,0 +1,47 @@
+Begin Object Class=/Script/Engine.BlendSpace Name="BS_Jog"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_3"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_3"
+   End Object
+   InterpolationParam(1)=(InterpolationTime=0.200000)
+   TargetWeightInterpolationSpeedPerSec=2.000000
+   SampleData(0)=(Animation=AnimSequence'"/Game/Jog_Bwd_Rifle.Jog_Bwd_Rifle"',SampleValue=(X=-180.000000,Y=270.000000,Z=0.000000))
+   SampleData(1)=(Animation=AnimSequence'"/Game/Jog_Lt_Rifle.Jog_Lt_Rifle"',SampleValue=(X=-180.000000,Y=0.000000,Z=0.000000))
+   SampleData(2)=(Animation=AnimSequence'"/Game/Jog_Lt_Rifle.Jog_Lt_Rifle"',SampleValue=(X=-90.000000,Y=0.000000,Z=0.000000))
+   SampleData(3)=(Animation=AnimSequence'"/Game/Jog_Lt_Rifle.Jog_Lt_Rifle"',SampleValue=(X=-90.000000,Y=270.000000,Z=0.000000))
+   SampleData(4)=(Animation=AnimSequence'"/Game/Jog_Fwd_Rifle.Jog_Fwd_Rifle"',SampleValue=(X=0.000000,Y=270.000000,Z=0.000000))
+   SampleData(5)=(Animation=AnimSequence'"/Game/Jog_Fwd_Rifle.Jog_Fwd_Rifle"')
+   SampleData(6)=(Animation=AnimSequence'"/Game/Jog_Rt_Rifle.Jog_Rt_Rifle"',SampleValue=(X=90.000000,Y=270.000000,Z=0.000000))
+   SampleData(7)=(Animation=AnimSequence'"/Game/Jog_Rt_Rifle.Jog_Rt_Rifle"',SampleValue=(X=90.000000,Y=0.000000,Z=0.000000))
+   SampleData(8)=(Animation=AnimSequence'"/Game/Jog_Bwd_Rifle.Jog_Bwd_Rifle"',SampleValue=(X=180.000000,Y=270.000000,Z=0.000000))
+   SampleData(9)=(Animation=AnimSequence'"/Game/Jog_Bwd_Rifle.Jog_Bwd_Rifle"',SampleValue=(X=180.000000,Y=0.000000,Z=0.000000))
+   GridSamples(0)=(Indices[0]=1,Indices[1]=2,Indices[2]=0,Weights[0]=1.000000)
+   GridSamples(1)=(Indices[0]=1,Indices[1]=2,Indices[2]=0,Weights[0]=0.750000,Weights[2]=0.250000)
+   GridSamples(2)=(Indices[0]=1,Indices[1]=2,Indices[2]=0,Weights[0]=0.500000,Weights[2]=0.500000)
+   GridSamples(3)=(Indices[0]=1,Indices[1]=2,Indices[2]=0,Weights[0]=0.250000,Weights[2]=0.750000)
+   GridSamples(4)=(Indices[0]=2,Indices[1]=3,Indices[2]=0,Weights[2]=1.000000)
+   GridSamples(5)=(Indices[0]=2,Indices[1]=5,Indices[2]=3,Weights[0]=1.000000)
+   GridSamples(6)=(Indices[0]=2,Indices[1]=5,Indices[2]=3,Weights[0]=0.750000,Weights[2]=0.250000)
+   GridSamples(7)=(Indices[0]=2,Indices[1]=3,Indices[2]=0,Weights[0]=0.500000,Weights[1]=0.500000)
+   GridSamples(8)=(Indices[0]=2,Indices[1]=3,Indices[2]=0,Weights[0]=0.250000,Weights[1]=0.750000)
+   GridSamples(9)=(Indices[0]=2,Indices[1]=3,Indices[2]=0,Weights[1]=1.000000)
+   GridSamples(10)=(Indices[0]=5,Indices[1]=7,Indices[2]=4,Weights[0]=1.000000)
+   GridSamples(11)=(Indices[0]=5,Indices[1]=7,Indices[2]=4,Weights[0]=0.750000,Weights[2]=0.250000)
+   GridSamples(12)=(Indices[0]=5,Indices[1]=7,Indices[2]=4,Weights[0]=0.500000,Weights[2]=0.500000)
+   GridSamples(13)=(Indices[0]=5,Indices[1]=4,Indices[2]=3,Weights[0]=0.250000,Weights[1]=0.750000)
+   GridSamples(14)=(Indices[0]=5,Indices[1]=4,Indices[2]=3,Weights[1]=1.000000)
+   GridSamples(15)=(Indices[0]=7,Indices[1]=9,Indices[2]=6,Weights[0]=1.000000)
+   GridSamples(16)=(Indices[0]=7,Indices[1]=9,Indices[2]=6,Weights[0]=0.750000,Weights[2]=0.250000)
+   GridSamples(17)=(Indices[0]=7,Indices[1]=9,Indices[2]=6,Weights[0]=0.500000,Weights[2]=0.500000)
+   GridSamples(18)=(Indices[0]=7,Indices[1]=6,Indices[2]=4,Weights[0]=0.250000,Weights[1]=0.750000)
+   GridSamples(19)=(Indices[0]=7,Indices[1]=6,Indices[2]=4,Weights[1]=1.000000)
+   GridSamples(20)=(Indices[0]=7,Indices[1]=9,Indices[2]=6,Weights[1]=1.000000)
+   GridSamples(21)=(Indices[0]=9,Indices[1]=8,Indices[2]=6,Weights[0]=0.750000,Weights[1]=0.250000)
+   GridSamples(22)=(Indices[0]=9,Indices[1]=8,Indices[2]=6,Weights[0]=0.500000,Weights[1]=0.500000)
+   GridSamples(23)=(Indices[0]=9,Indices[1]=8,Indices[2]=6,Weights[0]=0.250000,Weights[1]=0.750000)
+   GridSamples(24)=(Indices[0]=9,Indices[1]=8,Indices[2]=6,Weights[1]=1.000000)
+   BlendParameters(0)=(DisplayName="Direction",Min=-180.000000,Max=180.000000)
+   BlendParameters(1)=(DisplayName="Speed",Max=270.000000)
+   Skeleton=Skeleton'"/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_3"'
+End Object
